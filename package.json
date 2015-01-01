@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-fill-murray",
-  "version": "0.0.0",
+  "name": "ember-cli-fill-murray-malchak",
+  "version": "0.4.0",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,7 +10,10 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malchak/ember-cli-fill-murray-malchak.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,5 +40,6 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "dependencies": {}
 }
